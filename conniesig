@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+.conniesig {
+    width: 235px;
+    height: 145px;
+    margin: 1px auto;
+    border: 5px solid #0f0f0f;
+    position: relative;
+    transition: all ease-in-out 0.5s;
+    transition-delay: 0.4s;
+    overflow: hidden;
+    outline: 2px solid #bd9f63;
+    outline-offset: -5px;
+}
+
+.conniesig:hover {
+    transition: all ease-in-out 0.5s;
+    transition-delay: 0.3s;
+    border: 5px solid #bd9f63;
+}
+
+.cs-im {
+    width: 235px;
+    height: 145px;
+    background: url(https://64.media.tumblr.com/45df464702abe960224f41b0287ae77f/b81ab011570395a3-6f/s540x810/914de2f7463e873a338b7d84cdf049443a66d3a1.gif);
+    transition: all ease-in-out 0.4s;
+    transition-delay: 0.4s;
+    margin: 0;
+    overflow: hidden;
+    position: absolute;
+    background-position: -10px 0;
+}
+
+.conniesig:hover .cs-im {
+    background-position: -60px 0;
+    filter: grayscale(100%);
+    transition: all ease-in-out 0.3s;
+    transition-delay: 0.4s;
+}
+
+.cs-ic {
+    width: 50px;
+    height: 145px;
+    background: #bd9f63;
+    clip-path: polygon(55% 0, 100% 100%, 0 100%, 0 0);
+    position: absolute;
+    z-index: 4;
+    margin: 0;
+    transition: all ease-in-out 0.3s;
+    transition-delay: 0.4s;
+    left: 0%;
+}
+
+.conniesig:hover .cs-ic {
+    left: -100%;
+    transition: all ease-in-out 0.8s;
+    transition-delay: 0.4s;
+}
+
+.cs-ic i {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%,-50%);
+    font-size: 45px;
+    color: transparent;
+    opacity: .4;
+    -webkit-text-stroke: 1px #805b12;
+}
+
+.cs-tx {
+    position: absolute;
+    z-index: 4;
+    color: #fff;
+    width: 40px;
+    background: #0f0f0f;
+    padding: 10px;
+    height: 125px;
+    border-left: 8px solid #bd9f63;
+    right: -62px;
+    overflow: hidden;
+    font: 400 normal 8px space mono;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: right;
+    line-height: 21px;
+    transition: all ease-in-out 0.3s;
+    transition-delay: 0.4s;
+}
+
+.cs-tx c {
+    background: #bd9f63;
+    letter-spacing: 0px;
+    font: 700 italic 10px space mono;
+    padding: 0px 4px;
+    color: #0f0f0f;
+}
+
+.conniesig:hover .cs-tx {
+    transition: all ease-in-out 0.3s;
+    transition-delay: 0.4s;
+    right: 0px;
+    border-left: 1px solid #0f0f0f;
+}
